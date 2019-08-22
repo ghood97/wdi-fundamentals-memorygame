@@ -5,6 +5,7 @@ header {
 
 }
 
+
 main {
   width: 850px;
   margin:35px auto;
@@ -15,6 +16,20 @@ body {
   text-align: center;
   margin: 0;
 
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 nav {
@@ -36,11 +51,44 @@ h1 {
 a {
   margin: 0 20px 0 20px;
   color: #FFFFFF;
+  border-bottom: 2px solid transparent;
+
+}
+
+a:hover {
+  border-color: white;
 
 }
 
 img {
   margin: 40px 8px 0 8px;
+
+}
+
+.social {
+  text-transform: none;
+  text-decoration: none;
+
+}
+
+.copyright .message {
+  font-family: "Raleway", sans-serif;
+
+}
+
+.copyright {
+  float: left;
+
+}
+
+.message {
+  float: right;
+
+}
+
+.name {
+  color: #F15B31;
+  font-weight: 700;
 
 }
 
@@ -69,3 +117,18 @@ img {
   font-size: 18px;
 
 }
+
+.clearfix:after {
+  visisbility: hidded;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+
+}
+
+
+
+
+
